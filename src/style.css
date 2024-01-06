@@ -1,0 +1,134 @@
+:root {
+    color-scheme: dark;
+    --text-color: #ffffff;
+    --placeholder-text-color: hsl(0, 0%, 50%);
+    --background-color: #1f1f1f;
+    --input-color: #222222;
+    --control-color: #363636;
+    --control-hover-color: #464646;
+    --border-color: #424242;
+    --accent-color: #8c6cff;
+    --focus-color: var(--accent-color)
+}
+
+:focus-visible {
+    outline: 0.125rem solid var(--focus-color);
+    outline-offset: -0.125rem;
+}
+
+::placeholder {
+    color: var(--placeholder-text-color);
+}
+
+body {
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+    line-height: 1.5;
+    padding: 1rem;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+body.enable-transitions {
+    --easing: cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.2;
+}
+
+i {
+    font-weight: normal;
+}
+
+a {
+    color: var(--accent-color);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+button {
+    height: 2.25rem;
+    padding: 0 0.75em;
+    border: none;
+    border-radius: 0.5rem;
+    color: var(--text-color);
+    background-color: var(--control-color);
+    transition: background-color 100ms var(--easing);
+}
+
+button:hover {
+    background-color: var(--control-hover-color);
+}
+
+button.icon {
+    width: 2.25em;
+    height: 2.25em;
+    padding: 0;
+    border-radius: 50%;
+}
+
+button.icon>i {
+    font-size: 1.125em;
+}
+
+button.pill {
+    border-radius: 100vh;
+}
+
+input,
+select {
+    height: 2.25em;
+    padding: 0 0.5em;
+    border: 0.125rem solid var(--border-color);
+    border-radius: 0.5rem;
+    color: var(--text-color);
+    background-color: var(--input-color);
+}
+
+textarea {
+    padding: 0.25em 0.5em;
+    border: 0.125rem solid var(--border-color);
+    border-radius: 0.5rem;
+    color: var(--text-color);
+    background-color: var(--input-color);
+    resize: none;
+}
+
+label:has(input, select, textarea) {
+    display: flex;
+    flex-direction: column;
+    padding: 0.25em 0.5em;
+    border: 0.125rem solid var(--border-color);
+    border-radius: 0.5rem;
+    color: var(--placeholder-text-color);
+    background-color: var(--input-color);
+    font-size: 0.875rem;
+    line-height: 1;
+    cursor: text;
+}
+
+label:has(:is(input, select, textarea):focus-visible) {
+    outline: 0.125rem solid var(--focus-color);
+    outline-offset: -0.125rem;
+}
+
+label>:is(input, select, textarea) {
+    height: unset;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+label>:is(input, select, textarea):focus-visible {
+    outline: none;
+}
