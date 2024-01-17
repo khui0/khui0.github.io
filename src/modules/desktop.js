@@ -149,9 +149,11 @@ export class Window {
                 scale: 1,
                 pointerEvents: "",
             }, 250);
+            // Hide dock if windows is maximized
             if (this.maximized) {
                 animate(dock, undefined, {
                     opacity: 0,
+                    bottom: "-4.5rem",
                 }, 250);
             }
         }
@@ -165,8 +167,10 @@ export class Window {
             scale: 0.5,
             pointerEvents: "none",
         }, 250);
+        // Show dock
         animate(dock, undefined, {
             opacity: 1,
+            bottom: 0,
         }, 250);
     }
 
@@ -182,8 +186,10 @@ export class Window {
                 borderRadius: 0,
                 borderWidth: 0,
             }, 250);
+            // Hide dock
             animate(dock, undefined, {
                 opacity: 0,
+                bottom: "-4.5rem",
             }, 250);
             this.#maximize.innerHTML = `<i class="bi bi-arrows-angle-contract"></i>`;
         } else {
@@ -196,8 +202,10 @@ export class Window {
                 borderRadius: "",
                 borderWidth: "",
             }, 250);
+            // Show dock
             animate(dock, undefined, {
                 opacity: 1,
+                bottom: 0,
             }, 250);
             this.#maximize.innerHTML = `<i class="bi bi-arrows-angle-expand"></i>`;
         }
