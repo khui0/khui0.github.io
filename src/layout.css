@@ -60,7 +60,9 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 0.25rem;
     height: 2rem;
+    padding-right: 0.25rem;
     background-color: var(--control-color);
 }
 
@@ -73,10 +75,10 @@ body {
 }
 
 .window>div.title-bar>button {
-    width: 2.5rem;
-    height: 2rem;
+    width: 2rem;
+    height: 1.5rem;
     padding: 0;
-    border-radius: 0;
+    border-radius: 0.25rem;
 }
 
 .window>div.body {

@@ -2,11 +2,11 @@
     color-scheme: dark;
     --text-color: #ffffff;
     --placeholder-text-color: hsl(0, 0%, 50%);
-    --background-color: #1f1f1f;
-    --input-color: #222222;
-    --control-color: #363636;
-    --control-hover-color: #464646;
-    --border-color: #424242;
+    --background-color: #15141a;
+    --input-color: #201f27;
+    --control-color: #32303a;
+    --control-hover-color: #464452;
+    --border-color: #444150;
     --accent-color: #8c6cff;
     --focus-color: var(--accent-color)
 }
@@ -87,7 +87,7 @@ input,
 select {
     height: 2.25em;
     padding: 0 0.5em;
-    border: 0.125rem solid var(--border-color);
+    border: 1px solid var(--border-color);
     border-radius: 0.5rem;
     color: var(--text-color);
     background-color: var(--input-color);
@@ -95,7 +95,7 @@ select {
 
 textarea {
     padding: 0.25em 0.5em;
-    border: 0.125rem solid var(--border-color);
+    border: 1px solid var(--border-color);
     border-radius: 0.5rem;
     color: var(--text-color);
     background-color: var(--input-color);
@@ -106,13 +106,14 @@ label:has(input, select, textarea) {
     display: flex;
     flex-direction: column;
     padding: 0.25em 0.5em;
-    border: 0.125rem solid var(--border-color);
+    border: 1px solid var(--border-color);
     border-radius: 0.5rem;
     color: var(--placeholder-text-color);
     background-color: var(--input-color);
-    font-size: 0.875rem;
+    font-size: 0.75rem;
     line-height: 1;
     cursor: text;
+    user-select: none;
 }
 
 label:has(:is(input, select, textarea):focus-visible) {
@@ -127,6 +128,7 @@ label>:is(input, select, textarea) {
     border-radius: 0;
     font-size: 1rem;
     line-height: 1.5;
+    background-color: transparent;
 }
 
 label>:is(input, select, textarea):focus-visible {

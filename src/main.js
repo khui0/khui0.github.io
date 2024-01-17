@@ -5,10 +5,6 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 
 import * as desktop from "./modules/desktop.js";
 
-// import { io } from "socket.io-client";
-
-// const socket = io();
-
 document.body.offsetHeight;
 document.body.classList.add("enable-transitions");
 
