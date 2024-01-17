@@ -34,6 +34,18 @@ setTimeout(() => {
     windows["./pages/about.html"].show();
 }, 1000);
 
+setInterval(updateClock, 100);
+updateClock();
+function updateClock() {
+    document.querySelectorAll("span.time").forEach(span => {
+        const time = new Date().toLocaleTimeString([], {
+            hour: "numeric",
+            minute: "2-digit",
+        });
+        span.textContent = time;
+    });
+}
+
 document.querySelectorAll("[data-show]").forEach(button => {
     const query = button.getAttribute("data-show");
     const path = `./pages/${query}.html`;

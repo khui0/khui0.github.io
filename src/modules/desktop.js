@@ -3,6 +3,14 @@ const START_X = COMPACT ? 0 : 50;
 const START_Y = COMPACT ? 0 : 50;
 
 const dock = document.getElementById("dock");
+// Dramatic dock reveal
+animate(dock, {
+    opacity: 0,
+    bottom: "-4.5rem",
+}, {
+    opacity: 1,
+    bottom: 0,
+}, 1000);
 
 const windows = [];
 
