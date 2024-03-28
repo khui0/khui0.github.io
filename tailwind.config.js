@@ -1,5 +1,6 @@
-import Typography from "@tailwindcss/typography";
 import daisyui from "daisyui";
+import Typography from "@tailwindcss/typography";
+import Scrollbar from "tailwind-scrollbar";
 
 /** @type {import("tailwindcss").Config} */
 export default {
@@ -8,8 +9,12 @@ export default {
     extend: {},
   },
   plugins: [
-    Typography(),
     daisyui,
+    Typography(),
+    Scrollbar({
+      preferredStrategy: "pseudoelements",
+      nocompatible: true,
+    }),
   ],
   future: {
     hoverOnlyWhenSupported: true
@@ -18,11 +23,11 @@ export default {
     themes: [
       {
         dark: {
-          "primary": "#b22323",
+          "primary": "#7e6bc9",
           "primary-content": "white",
-          "secondary": "#b22323",
+          "secondary": "#523ff4",
           "secondary-content": "white",
-          "accent": "#b22323",
+          "accent": "#7e6bc9",
           "neutral": "#3f3f3f",
           "base-100": "#0f0f0f",
           "base-200": "#272727",
