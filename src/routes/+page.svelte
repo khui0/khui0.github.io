@@ -1,5 +1,11 @@
 <script>
   import StarField from "$lib/StarField.svelte";
+  import DeviconSvelte from "~icons/devicon/svelte";
+  import DeviconTailwindcss from "~icons/devicon/tailwindcss";
+  import DeviconTypescript from "~icons/devicon/typescript";
+  import SimpleIconsGithub from "~icons/simple-icons/github";
+  import SimpleIconsPrintables from "~icons/simple-icons/printables";
+  import SimpleIconsThingiverse from "~icons/simple-icons/thingiverse";
 </script>
 
 <svelte:head>
@@ -18,8 +24,8 @@
         Kenny Hui
       </h1>
       <p class="py-6 text-neutral-content text-lg">
-        Hi! I'm a high school student with a passion for coding. Experienced in
-        web development, and 3D printing.
+        Hi! I'm a high school student with a passion for coding and computers.
+        Experienced in web development, and 3D printing.
       </p>
     </div>
   </div>
@@ -74,6 +80,9 @@
       <a href="https://github.com/khui0/bell-tracker">Source</a>
     </div>
   </div>
+  <p class="prose lg:prose-2xl text-center mx-auto my-5">
+    <a href="https://github.com/khui0">More</a>
+  </p>
 </div>
 
 <div class="m-10">
@@ -87,6 +96,17 @@
     class="max-w-lg w-full mx-auto object-center"
   />
   <h3 class="font-normal text-5xl lg:text-9xl">mini Satsana</h3>
+  <div class="stat px-0">
+    <div class="stat-title">Downloads</div>
+    <div class="stat-value">5,000+</div>
+    <div class="stat-desc">
+      Combined data from <a href="https://www.thingiverse.com/thing:5139196"
+        >Thingiverse</a
+      >
+      and
+      <a href="https://www.printables.com/model/201332">Printables</a>
+    </div>
+  </div>
   <div class="prose lg:prose-2xl">
     <p>
       Remix of the very popular Satsana fan duct for Creality printers. Aims to
@@ -111,5 +131,38 @@
       Autodesk Fusion and the firmware is written in Arduino.
     </p>
     <a href="https://github.com/khui0/pico-wheel">Source</a>
+  </div>
+  <p class="prose lg:prose-2xl text-center mx-auto my-5">
+    <a href="https://www.printables.com/@kenny">More</a>
+  </p>
+</div>
+
+<div class="m-10">
+  <enhanced:img
+    src="$lib/assets/profile.png"
+    alt="Profile picture"
+    class="max-w-xs w-[50%] mx-auto object-center rounded-full"
+  />
+  <div class="prose lg:prose-xl mx-auto my-5 text-center">
+    <p>
+      This site is built with SvelteKit, Tailwind CSS, daisyUI, and TypeScript
+    </p>
+    <div class="grid grid-flow-col gap-3 justify-center text-3xl">
+      <DeviconSvelte></DeviconSvelte>
+      <DeviconTailwindcss></DeviconTailwindcss>
+      <DeviconTypescript></DeviconTypescript>
+    </div>
+    <p>You can find more of my work here</p>
+    <div class="grid grid-flow-col gap-3 justify-center text-3xl">
+      <a href="https://github.com/khui0" class="w-fit"
+        ><SimpleIconsGithub></SimpleIconsGithub></a
+      >
+      <a href="https://www.printables.com/@kenny" class="w-fit"
+        ><SimpleIconsPrintables></SimpleIconsPrintables></a
+      >
+      <a href="https://www.thingiverse.com/kennyhui/designs" class="w-fit"
+        ><SimpleIconsThingiverse></SimpleIconsThingiverse></a
+      >
+    </div>
   </div>
 </div>
