@@ -2,7 +2,7 @@
   import { onMount } from "svelte";
 
   let canvas: HTMLCanvasElement;
-  let ctx: CanvasRenderingContext2D;
+  let ctx: CanvasRenderingContext2D | null;
 
   let centerX: number;
   let centerY: number;
@@ -16,6 +16,16 @@
   const stars: Star[] = [];
 
   class Star {
+    x: number = 0;
+    y: number = 0;
+    maxRadius: number = 0;
+    progress: number = 0;
+    speed: number = 0;
+    width: number = 0;
+    opacity: number = 0;
+    fade: number = 0;
+    radius: number = 0;
+
     constructor() {
       this.#setup();
     }
@@ -35,7 +45,7 @@
     }
 
     draw(deltaT: number) {
-      if (!deltaT) return;
+      if (!deltaT || !ctx) return;
 
       // Reset values if star is out of frame
       if (this.progress > 0) {
@@ -84,7 +94,7 @@
   }
 
   function update(timestamp: DOMHighResTimeStamp) {
-    if (isVisible(canvas)) {
+    if (isVisible(canvas) && ctx) {
       resize(canvas);
       const deltaT: number = timestamp - last;
       last = timestamp;
@@ -133,4 +143,4 @@
   }
 </script>
 
-<canvas bind:this={canvas} class="w-full h-full bg-black"></canvas>
+<canvas bind:this={canvas} class="w-full h-full bg-transparent"></canvas>
