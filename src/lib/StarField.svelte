@@ -7,7 +7,7 @@
   let centerX: number;
   let centerY: number;
 
-  let width: number;
+  let canvasSize: number;
 
   let last: number;
 
@@ -21,7 +21,7 @@
     maxRadius: number = 0;
     progress: number = 0;
     speed: number = 0;
-    width: number = 0;
+    canvasSize: number = 0;
     opacity: number = 0;
     fade: number = 0;
     radius: number = 0;
@@ -33,11 +33,11 @@
     #setup() {
       this.x = random(-centerX, centerX);
       this.y = random(-centerY, centerY);
-      this.maxRadius = random(1, 10) * (width / 1500);
+      this.maxRadius = random(1, 10) * (canvasSize / 1500);
 
-      this.progress = random(1, width);
-      this.speed = random(1, 5) * 5;
-      this.width = width;
+      this.progress = random(1, canvasSize);
+      this.speed = (random(1, 5) / 20) * (canvasSize / 1000);
+      this.canvasSize = canvasSize;
 
       this.opacity = 0;
       // Fade duration in ms
@@ -49,7 +49,7 @@
 
       // Reset values if star is out of frame
       if (this.progress > 0) {
-        this.progress -= this.speed / deltaT;
+        this.progress -= this.speed * deltaT;
       } else {
         this.#setup();
       }
@@ -61,12 +61,12 @@
       }
 
       // Map x and y to the ratio of position and progress
-      const x = map(this.x / this.progress, 0, 1, 0, this.width);
-      const y = map(this.y / this.progress, 0, 1, 0, this.width);
+      const x = map(this.x / this.progress, 0, 1, 0, this.canvasSize);
+      const y = map(this.y / this.progress, 0, 1, 0, this.canvasSize);
 
       // Inversely map radius to progress
       this.radius = clamp(
-        map(this.progress, 0, this.width, this.maxRadius, 0),
+        map(this.progress, 0, this.canvasSize, this.maxRadius, 0),
         0,
         Infinity,
       );
@@ -116,7 +116,7 @@
     canvas.height = rect.height;
     centerX = rect.width / 2;
     centerY = rect.height / 2;
-    width = canvas.width;
+    canvasSize = Math.max(canvas.width, canvas.height);
   }
 
   function isVisible(element: HTMLElement): boolean {
