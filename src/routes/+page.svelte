@@ -6,8 +6,10 @@
   <title>Kenny Hui</title>
 </svelte:head>
 
-<div class="hero min-h-screen bg-base-100">
-  <StarField></StarField>
+<div class="hero min-h-screen bg-base-100 relative">
+  <div class="absolute inset-0">
+    <StarField></StarField>
+  </div>
   <div class="hero-content text-center">
     <div class="max-w-xl">
       <h1
