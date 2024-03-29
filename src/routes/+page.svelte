@@ -17,7 +17,7 @@
       >
         Kenny Hui
       </h1>
-      <p class="py-6 text-neutral-content">
+      <p class="py-6 text-neutral-content text-lg">
         Hi! I'm a high school student with a passion for coding. Experienced in
         web development, and 3D printing.
       </p>
@@ -39,20 +39,20 @@
     <div class="prose lg:prose-2xl my-auto">
       <h3 class="font-normal">Virtual Clicker</h3>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
-        facilis delectus doloremque fugiat dicta temporibus consequuntur
-        perspiciatis ea ab quaerat minus ut fuga, numquam nihil, pariatur
-        quibusdam! Quia, molestias sunt.
+        Room 233's student response system. Allows students to answer questions
+        in real time. Includes 15+ themes, LaTeX input, and submission history.
+        Written in vanilla JS, HTML, and CSS.
       </p>
+      <a href="https://github.com/khui0/virtual-clicker">Source</a>
     </div>
     <div class="prose lg:prose-2xl my-auto">
       <h3 class="font-normal">Falcon Report Graphics</h3>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
-        facilis delectus doloremque fugiat dicta temporibus consequuntur
-        perspiciatis ea ab quaerat minus ut fuga, numquam nihil, pariatur
-        quibusdam! Quia, molestias sunt.
+        A collection of graphics generators for my school's AV club, The Falcon
+        Report. Customizable and consistent. Built with SvelteKit, Tailwind CSS,
+        and daisyUI.
       </p>
+      <a href="https://github.com/khui0/fr-graphics">Source</a>
     </div>
     <enhanced:img
       src="$lib/assets/fr-graphics.png"
@@ -67,11 +67,11 @@
     <div class="prose lg:prose-2xl my-auto">
       <h3 class="font-normal">Bell Tracker</h3>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
-        facilis delectus doloremque fugiat dicta temporibus consequuntur
-        perspiciatis ea ab quaerat minus ut fuga, numquam nihil, pariatur
-        quibusdam! Quia, molestias sunt.
+        Live progress bar for my school's bell. Allows you to easily keep track
+        of the period and time left. Built with Svelte, Tailwind CSS, and
+        daisyUI.
       </p>
+      <a href="https://github.com/khui0/bell-tracker">Source</a>
     </div>
   </div>
 </div>
@@ -87,9 +87,29 @@
     class="max-w-lg w-full mx-auto object-center"
   />
   <h3 class="font-normal text-5xl lg:text-9xl">mini Satsana</h3>
-  <p class="prose lg:prose-2xl">
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad culpa minus ex
-    eius, neque omnis impedit aperiam corporis deserunt numquam deleniti labore
-    distinctio! Accusamus repudiandae modi quis totam ea provident!
-  </p>
+  <div class="prose lg:prose-2xl">
+    <p>
+      Remix of the very popular Satsana fan duct for Creality printers. Aims to
+      reduce unnecessary weight and size, and improving compatibility. It's
+      compatible with the Ender-3/CR-10 (not the Ender-3 V2) and the Elegoo
+      Neptune 2. Allows using either one or two 4010 blower fans and has
+      mounting options for a BLTouch probe.
+    </p>
+    <a href="https://www.printables.com/model/201332">Download</a>
+  </div>
+  <enhanced:img
+    src="$lib/assets/pico-wheel.png"
+    alt="Pico wheel"
+    class="max-w-lg w-full mx-auto object-center"
+  />
+  <h3 class="font-normal text-5xl lg:text-9xl text-right">Pico Wheel</h3>
+  <div class="prose lg:prose-2xl ml-auto text-right">
+    <p>
+      Desk mounted sim racing wheel designed to be cheap to build. Uses a
+      Raspberry Pi Pico and an AS5600 magnetic encoder. Has two paddles which
+      can be binded to act as paddle shifters or pedals. Model is designed in
+      Autodesk Fusion and the firmware is written in Arduino.
+    </p>
+    <a href="https://github.com/khui0/pico-wheel">Source</a>
+  </div>
 </div>
