@@ -26,17 +26,17 @@
 </div>
 
 <div class="m-10">
-  <h2 class="text-5xl">Web Development</h2>
+  <h2 class="text-5xl" id="web-development">Web Development</h2>
   <p class="text-neutral-content my-5">
     Some of my work for the World Wide Web
   </p>
   <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
     <enhanced:img
       src="$lib/assets/virtual-clicker.png"
-      alt=""
-      class="object-cover"
+      alt="Virtual Clicker"
+      class="object-cover rounded-lg"
     />
-    <div class="prose lg:prose-2xl">
+    <div class="prose lg:prose-2xl my-auto">
       <h3 class="font-normal">Virtual Clicker</h3>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
@@ -45,7 +45,7 @@
         quibusdam! Quia, molestias sunt.
       </p>
     </div>
-    <div class="prose lg:prose-2xl">
+    <div class="prose lg:prose-2xl my-auto">
       <h3 class="font-normal">Falcon Report Graphics</h3>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
@@ -56,15 +56,15 @@
     </div>
     <enhanced:img
       src="$lib/assets/fr-graphics.png"
-      alt=""
-      class="object-cover"
+      alt="Falcon Report Graphics generator"
+      class="object-cover rounded-lg"
     />
     <enhanced:img
       src="$lib/assets/bell-tracker.png"
-      alt=""
-      class="object-cover"
+      alt="Bell tracker"
+      class="object-cover rounded-lg"
     />
-    <div class="prose lg:prose-2xl">
+    <div class="prose lg:prose-2xl my-auto">
       <h3 class="font-normal">Bell Tracker</h3>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
@@ -74,4 +74,22 @@
       </p>
     </div>
   </div>
+</div>
+
+<div class="m-10">
+  <h2 class="text-5xl" id="3d-printing">3D Printing</h2>
+  <p class="text-neutral-content my-5">
+    3D models I've designed in Autodesk Fusion
+  </p>
+  <enhanced:img
+    src="$lib/assets/mini-satsana.png"
+    alt="mini Satsana fan duct"
+    class="max-w-lg w-full mx-auto object-center"
+  />
+  <h3 class="font-normal text-5xl lg:text-9xl">mini Satsana</h3>
+  <p class="prose lg:prose-2xl">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad culpa minus ex
+    eius, neque omnis impedit aperiam corporis deserunt numquam deleniti labore
+    distinctio! Accusamus repudiandae modi quis totam ea provident!
+  </p>
 </div>
