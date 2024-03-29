@@ -2,6 +2,7 @@
   "name": "khui0.github.io",
   "version": "0.0.1",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "vite dev --host",
     "build": "vite build",
@@ -11,6 +12,7 @@
     "lint": "eslint ."
   },
   "devDependencies": {
+    "@iconify/json": "^2.2.196",
     "@sveltejs/adapter-auto": "^3.0.0",
     "@sveltejs/adapter-static": "^3.0.1",
     "@sveltejs/enhanced-img": "^0.1.9",
@@ -31,14 +33,11 @@
     "tailwindcss": "^3.4.3",
     "tslib": "^2.4.1",
     "typescript": "^5.0.0",
+    "unplugin-icons": "^0.18.5",
     "vite": "^5.0.3",
     "vite-plugin-webfont-dl": "^3.9.2"
   },
-  "type": "module",
   "optionalDependencies": {
     "@rollup/rollup-linux-x64-gnu": "^4.13.2"
-  },
-  "dependencies": {
-    "lucide-svelte": "^0.363.0"
   }
 }
