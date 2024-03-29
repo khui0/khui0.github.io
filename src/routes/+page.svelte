@@ -1,5 +1,5 @@
 <script>
-  import { ChevronDown } from "lucide-svelte";
+  import StarField from "$lib/StarField.svelte";
 </script>
 
 <svelte:head>
@@ -7,6 +7,7 @@
 </svelte:head>
 
 <div class="hero min-h-screen bg-base-100">
+  <StarField></StarField>
   <div class="hero-content text-center">
     <div class="max-w-xl">
       <h1
