@@ -109,8 +109,8 @@
   </div>
   <div class="prose lg:prose-2xl">
     <p>
-      Remix of the very popular Satsana fan duct for Creality printers. Aims to
-      reduce unnecessary weight and size, and improving compatibility. It's
+      Remix of the popular Satsana fan duct for Creality printers. Aims to
+      reduce unnecessary weight and size while improving compatibility. It's
       compatible with the Ender-3/CR-10 (not the Ender-3 V2) and the Elegoo
       Neptune 2. Allows using either one or two 4010 blower fans and has
       mounting options for a BLTouch probe.
