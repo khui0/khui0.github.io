@@ -29,7 +29,7 @@ export default {
           "secondary-content": "white",
           "accent": "#7e6bc9",
           "neutral": "#3f3f3f",
-          "base-100": "#0f0f0f",
+          "base-100": "#000000",
           "base-200": "#272727",
           "base-300": "#ababab",
           "base-content": "white",
