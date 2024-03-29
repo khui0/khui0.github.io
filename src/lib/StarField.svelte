@@ -84,16 +84,18 @@
   }
 
   function update(timestamp: DOMHighResTimeStamp) {
-    resize(canvas);
-    const deltaT: number = timestamp - last;
-    last = timestamp;
+    if (isVisible(canvas)) {
+      resize(canvas);
+      const deltaT: number = timestamp - last;
+      last = timestamp;
 
-    ctx.translate(centerX, centerY);
-    for (let i = 0; i < stars.length; i++) {
-      const star = stars[i];
-      star.draw(deltaT);
+      ctx.translate(centerX, centerY);
+      for (let i = 0; i < stars.length; i++) {
+        const star = stars[i];
+        star.draw(deltaT);
+      }
+      ctx.translate(-centerX, -centerY);
     }
-    ctx.translate(-centerX, -centerY);
 
     window.requestAnimationFrame(update);
   }
@@ -105,6 +107,11 @@
     centerX = rect.width / 2;
     centerY = rect.height / 2;
     width = canvas.width;
+  }
+
+  function isVisible(element: HTMLElement): boolean {
+    const rect = element.getBoundingClientRect();
+    return rect.bottom > 0;
   }
 
   function random(min: number, max: number): number {
