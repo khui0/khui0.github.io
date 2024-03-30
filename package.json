@@ -34,10 +34,12 @@
     "tslib": "^2.4.1",
     "typescript": "^5.0.0",
     "unplugin-icons": "^0.18.5",
-    "vite": "^5.0.3",
-    "vite-plugin-webfont-dl": "^3.9.2"
+    "vite": "^5.0.3"
   },
   "optionalDependencies": {
     "@rollup/rollup-linux-x64-gnu": "^4.13.2"
+  },
+  "dependencies": {
+    "@fontsource-variable/dm-sans": "^5.0.4"
   }
 }

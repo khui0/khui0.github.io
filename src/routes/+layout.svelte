@@ -5,6 +5,6 @@
 <style>
     :global(html) {
         @apply scrollbar scrollbar-thumb-base-200 hover:scrollbar-thumb-primary scrollbar-track-transparent;
-        font-family: "DM Sans", sans-serif;
+        font-family: "DM Sans Variable", sans-serif;
     }
 </style>
