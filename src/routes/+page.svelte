@@ -144,7 +144,7 @@
 <div class="m-10">
   <enhanced:img
     src="$lib/assets/profile.png"
-    alt="Profile picture"
+    alt="Profile"
     class="max-w-xs w-[50%] mx-auto object-center rounded-full"
   />
   <div class="prose lg:prose-xl mx-auto my-5 text-center">

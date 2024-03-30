@@ -143,4 +143,4 @@
   }
 </script>
 
-<canvas bind:this={canvas} class="w-full h-full bg-transparent"></canvas>
+<canvas bind:this={canvas} class="w-full h-full bg-transparent pointer-events-none"></canvas>
