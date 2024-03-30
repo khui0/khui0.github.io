@@ -85,7 +85,7 @@
     </div>
   </div>
   <p class="prose lg:prose-2xl text-center mx-auto my-5">
-    <a href="https://github.com/khui0">More</a>
+    <a href="https://github.com/khui0">More web projects</a>
   </p>
 </div>
 
@@ -137,7 +137,7 @@
     <a href="https://github.com/khui0/pico-wheel">Source</a>
   </div>
   <p class="prose lg:prose-2xl text-center mx-auto my-5">
-    <a href="https://www.printables.com/@kenny">More</a>
+    <a href="https://www.printables.com/@kenny">More 3D models</a>
   </p>
 </div>
 
@@ -158,13 +158,15 @@
     </div>
     <p>You can find more of my work here</p>
     <div class="grid grid-flow-col gap-3 justify-center text-3xl">
-      <a href="https://github.com/khui0" class="w-fit"
+      <a href="https://github.com/khui0" aria-label="GitHub"
         ><SimpleIconsGithub></SimpleIconsGithub></a
       >
-      <a href="https://www.printables.com/@kenny" class="w-fit"
+      <a href="https://www.printables.com/@kenny" aria-label="Printables"
         ><SimpleIconsPrintables></SimpleIconsPrintables></a
       >
-      <a href="https://www.thingiverse.com/kennyhui/designs" class="w-fit"
+      <a
+        href="https://www.thingiverse.com/kennyhui/designs"
+        aria-label="Thingiverse"
         ><SimpleIconsThingiverse></SimpleIconsThingiverse></a
       >
     </div>
