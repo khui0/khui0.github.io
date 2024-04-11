@@ -65,11 +65,7 @@
       const y = map(this.y / this.progress, 0, 1, 0, this.canvasSize);
 
       // Inversely map radius to progress
-      this.radius = clamp(
-        map(this.progress, 0, this.canvasSize, this.maxRadius, 0),
-        0,
-        Infinity,
-      );
+      this.radius = clamp(map(this.progress, 0, this.canvasSize, this.maxRadius, 0), 0, Infinity);
 
       // Draw circle
       ctx.beginPath();
