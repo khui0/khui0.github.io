@@ -57,7 +57,7 @@
       <h3 class="font-normal">Falcon Report Graphics</h3>
       <p>
         A collection of graphics generators for my school's AV club, The Falcon Report. Customizable
-        and consistent. Built with SvelteKit, Tailwind CSS, and daisyUI.
+        and consistent. Built with SvelteKit + Tailwind CSS.
       </p>
       <a href="https://github.com/khui0/fr-graphics">Source</a>
     </div>
@@ -75,7 +75,7 @@
       <h3 class="font-normal">Bell Tracker</h3>
       <p>
         Live progress bar for my school's bell. Allows you to easily keep track of the period and
-        time left. Built with Svelte, Tailwind CSS, and daisyUI.
+        time left. Built with Svelte + Tailwind CSS.
       </p>
       <a href="https://github.com/khui0/bell-tracker">Source</a>
     </div>
