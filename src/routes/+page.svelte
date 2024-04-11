@@ -6,6 +6,8 @@
   import SimpleIconsGithub from "~icons/simple-icons/github";
   import SimpleIconsPrintables from "~icons/simple-icons/printables";
   import SimpleIconsThingiverse from "~icons/simple-icons/thingiverse";
+
+  import WebDevPanel from "$lib/WebDevPanel.svelte";
 </script>
 
 <svelte:head>
@@ -38,51 +40,51 @@
 <div class="m-10">
   <h2 class="text-5xl" id="web-development">Web Development</h2>
   <p class="text-neutral-content my-5">Some of my work found on the World Wide Web</p>
-  <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
-    <enhanced:img
-      src="$lib/assets/virtual-clicker.png"
-      alt="Virtual Clicker"
-      class="object-cover rounded-lg"
-    />
-    <div class="prose lg:prose-2xl my-auto">
-      <h3 class="font-normal">Virtual Clicker</h3>
-      <p>
+  <div class="flex flex-col gap-5">
+    <WebDevPanel url="https://github.com/khui0/virtual-clicker">
+      <span slot="image">
+        <enhanced:img
+          src="$lib/assets/virtual-clicker.png"
+          alt="Virtual Clicker"
+          class="object-cover rounded-lg"
+        />
+      </span>
+      <span slot="title">Virtual Clicker</span>
+      <span slot="body">
         Room 233's student response system. Allows students to answer questions in real time.
         Includes 15+ themes, LaTeX input, and submission history. Written in vanilla JS, HTML, and
         CSS.
-      </p>
-      <a href="https://github.com/khui0/virtual-clicker">Source</a>
-    </div>
-    <div class="prose lg:prose-2xl my-auto">
-      <h3 class="font-normal">Falcon Report Graphics</h3>
-      <p>
+      </span>
+    </WebDevPanel>
+    <WebDevPanel url="https://github.com/khui0/fr-graphics" reversed>
+      <span slot="image">
+        <enhanced:img
+          src="$lib/assets/fr-graphics.png"
+          alt="Falcon Report Graphics"
+          class="object-cover rounded-lg"
+        />
+      </span>
+      <span slot="title">Falcon Report Graphics</span>
+      <span slot="body">
         A collection of graphics generators for my school's AV club, The Falcon Report. Customizable
         and consistent. Built with SvelteKit + Tailwind CSS.
-      </p>
-      <a href="https://github.com/khui0/fr-graphics">Source</a>
-    </div>
-    <enhanced:img
-      src="$lib/assets/fr-graphics.png"
-      alt="Falcon Report Graphics generator"
-      class="object-cover rounded-lg"
-    />
-    <enhanced:img
-      src="$lib/assets/bell-tracker.png"
-      alt="Bell tracker"
-      class="object-cover rounded-lg"
-    />
-    <div class="prose lg:prose-2xl my-auto">
-      <h3 class="font-normal">Bell Tracker</h3>
-      <p>
+      </span>
+    </WebDevPanel>
+    <WebDevPanel url="https://github.com/khui0/bell-tracker">
+      <span slot="image">
+        <enhanced:img
+          src="$lib/assets/bell-tracker.png"
+          alt="Bell tracker"
+          class="object-cover rounded-lg"
+        />
+      </span>
+      <span slot="title">Bell Tracker</span>
+      <span slot="body">
         Live progress bar for my school's bell. Allows you to easily keep track of the period and
         time left. Built with Svelte + Tailwind CSS.
-      </p>
-      <a href="https://github.com/khui0/bell-tracker">Source</a>
-    </div>
+      </span>
+    </WebDevPanel>
   </div>
-  <p class="prose lg:prose-2xl text-center mx-auto my-5">
-    <a href="https://github.com/khui0">More web projects</a>
-  </p>
 </div>
 
 <div class="m-10">
