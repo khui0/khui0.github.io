@@ -12,23 +12,23 @@ export default {
     daisyui,
     Typography(),
     Scrollbar({
-      preferredStrategy: "pseudoelements",
       nocompatible: true,
+      preferredStrategy: "pseudoelements",
     }),
   ],
   future: {
-    hoverOnlyWhenSupported: true
+    hoverOnlyWhenSupported: true,
   },
   daisyui: {
     themes: [
       {
         dark: {
-          "primary": "#7e6bc9",
+          primary: "#7e6bc9",
           "primary-content": "white",
-          "secondary": "#523ff4",
+          secondary: "#523ff4",
           "secondary-content": "white",
-          "accent": "#7e6bc9",
-          "neutral": "#3f3f3f",
+          accent: "#7e6bc9",
+          neutral: "#3f3f3f",
           "base-100": "#000000",
           "base-200": "#272727",
           "base-300": "#ababab",
@@ -47,5 +47,4 @@ export default {
       },
     ],
   },
-}
-
+};
