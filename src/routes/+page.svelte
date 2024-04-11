@@ -29,7 +29,7 @@
       >
         Kenny Hui
       </h1>
-      <p class="py-6 text-neutral-content text-md">
+      <p class="py-6 text-neutral-content">
         Hi! I'm a high school student with a passion for coding and computers. Experienced in web
         development and 3D printing.
       </p>
@@ -96,7 +96,7 @@
     class="max-w-lg w-full mx-auto object-center"
   />
   <h3 class="font-normal text-5xl lg:text-9xl">mini Satsana</h3>
-  <div class="stat px-0">
+  <div class="stat px-0 mb-10">
     <div class="stat-title">Downloads</div>
     <div class="stat-value">5,000+</div>
     <div class="stat-desc">
@@ -105,7 +105,7 @@
       <a href="https://www.printables.com/model/201332">Printables</a>
     </div>
   </div>
-  <div class="prose lg:prose-2xl">
+  <div class="prose lg:prose-xl">
     <p>
       Remix of the popular Satsana fan duct for Creality printers. Aims to reduce unnecessary weight
       and size while improving compatibility. It's compatible with the Ender-3/CR-10 (not the
@@ -119,8 +119,8 @@
     alt="Pico wheel"
     class="max-w-lg w-full mx-auto object-center"
   />
-  <h3 class="font-normal text-5xl lg:text-9xl text-right">Pico Wheel</h3>
-  <div class="prose lg:prose-2xl ml-auto text-right">
+  <h3 class="font-normal text-5xl lg:text-9xl lg:text-right mb-5">Pico Wheel</h3>
+  <div class="prose lg:prose-xl ml-auto lg:text-right">
     <p>
       Desk mounted sim racing wheel designed to be cheap to build. Uses a Raspberry Pi Pico and an
       AS5600 magnetic encoder. Has two paddles which can be binded to act as paddle shifters or
@@ -139,7 +139,7 @@
     alt="Profile"
     class="max-w-xs w-[50%] mx-auto object-center rounded-full"
   />
-  <div class="prose lg:prose-xl mx-auto my-5 text-center">
+  <div class="prose mx-auto my-5 text-center">
     <p>This site is built with SvelteKit, Tailwind CSS, daisyUI, and TypeScript</p>
     <div class="grid grid-flow-col gap-3 justify-center text-3xl">
       <DeviconSvelte></DeviconSvelte>
