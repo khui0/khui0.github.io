@@ -8,6 +8,13 @@
   import SimpleIconsThingiverse from "~icons/simple-icons/thingiverse";
 
   import WebDevPanel from "$lib/WebDevPanel.svelte";
+
+  import { onMount } from "svelte";
+  import AOS from "aos";
+
+  onMount(() => {
+    AOS.init();
+  });
 </script>
 
 <svelte:head>
@@ -95,8 +102,8 @@
     alt="mini Satsana fan duct"
     class="max-w-lg w-full mx-auto object-center"
   />
-  <h3 class="font-normal text-5xl lg:text-9xl">mini Satsana</h3>
-  <div class="stat px-0 mb-5">
+  <h3 data-aos="fade-right" class="font-normal text-5xl lg:text-9xl">mini Satsana</h3>
+  <div data-aos="fade-right" class="stat px-0 mb-5">
     <div class="stat-title">Downloads</div>
     <div class="stat-value">5,000+</div>
     <div class="stat-desc">
@@ -105,7 +112,7 @@
       <a href="https://www.printables.com/model/201332">Printables</a>
     </div>
   </div>
-  <div class="prose lg:prose-xl">
+  <div data-aos="fade-right" class="prose lg:prose-xl">
     <p>
       Remix of the popular Satsana fan duct for Creality printers. Aims to reduce unnecessary weight
       and size while improving compatibility. It's compatible with the Ender-3/CR-10 (not the
@@ -119,8 +126,10 @@
     alt="Pico wheel"
     class="max-w-lg w-full mx-auto object-center"
   />
-  <h3 class="font-normal text-5xl lg:text-9xl lg:text-right mb-5">Pico Wheel</h3>
-  <div class="prose lg:prose-xl ml-auto lg:text-right">
+  <h3 data-aos="fade-left" class="font-normal text-5xl lg:text-9xl lg:text-right mb-5">
+    Pico Wheel
+  </h3>
+  <div data-aos="fade-left" class="prose lg:prose-xl ml-auto lg:text-right">
     <p>
       Desk mounted sim racing wheel designed to be cheap to build. Uses a Raspberry Pi Pico and an
       AS5600 magnetic encoder. Has two paddles which can be binded to act as paddle shifters or
