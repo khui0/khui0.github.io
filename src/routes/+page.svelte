@@ -32,7 +32,7 @@
   <div class="hero-content text-center">
     <div class="max-w-xl">
       <h1
-        class="text-7xl lg:text-9xl font-bold text-transparent bg-clip-text bg-gradient-to-t from-primary to-secondary drop-shadow-glow"
+        class="text-8xl font-bold text-transparent bg-clip-text bg-gradient-to-t from-primary to-secondary drop-shadow-glow"
       >
         Kenny Hui
       </h1>
