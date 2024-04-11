@@ -6,7 +6,11 @@ import Scrollbar from "tailwind-scrollbar";
 export default {
   content: ["./src/**/*.{html,js,svelte,ts}"],
   theme: {
-    extend: {},
+    extend: {
+      dropShadow: {
+        glow: ["0 0 1.5rem theme('colors.primary')"],
+      },
+    },
   },
   plugins: [
     daisyui,
@@ -24,15 +28,15 @@ export default {
       {
         dark: {
           primary: "#7e6bc9",
-          "primary-content": "white",
+          "primary-content": "#ffffff",
           secondary: "#523ff4",
-          "secondary-content": "white",
+          "secondary-content": "#ffffff",
           accent: "#7e6bc9",
           neutral: "#3f3f3f",
           "base-100": "#000000",
           "base-200": "#272727",
           "base-300": "#ababab",
-          "base-content": "white",
+          "base-content": "#ffffff",
 
           "--rounded-box": "0.75rem",
           "--rounded-btn": "0.5rem",
