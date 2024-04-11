@@ -100,7 +100,7 @@
   <enhanced:img
     src="$lib/assets/mini-satsana.png"
     alt="mini Satsana fan duct"
-    class="max-w-lg w-full mx-auto object-center"
+    class="max-w-lg w-full mx-auto object-center mb-5"
   />
   <h3 data-aos="fade-right" class="font-normal text-5xl lg:text-9xl">mini Satsana</h3>
   <div data-aos="fade-right" class="stat px-0 mb-5">
@@ -124,7 +124,7 @@
   <enhanced:img
     src="$lib/assets/pico-wheel.png"
     alt="Pico wheel"
-    class="max-w-lg w-full mx-auto object-center"
+    class="max-w-lg w-full mx-auto object-center mb-5"
   />
   <h3 data-aos="fade-left" class="font-normal text-5xl lg:text-9xl lg:text-right mb-5">
     Pico Wheel
