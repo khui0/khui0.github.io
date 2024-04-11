@@ -21,7 +21,7 @@
   <title>Kenny Hui</title>
   <meta
     name="description"
-    content="Hi! I'm a high school student with a passion for coding and computers. Experienced in web development and 3D printing."
+    content="Hi! I'm a high school student with a passion for programming and computers. Experienced in web development and 3D printing."
   />
 </svelte:head>
 
@@ -32,13 +32,13 @@
   <div class="hero-content text-center">
     <div class="max-w-xl">
       <h1
-        class="text-8xl font-bold text-transparent bg-clip-text bg-gradient-to-t from-primary to-secondary drop-shadow-glow"
+        class="text-7xl lg:text-9xl font-bold text-transparent bg-clip-text bg-gradient-to-t from-primary to-secondary drop-shadow-glow"
       >
         Kenny Hui
       </h1>
       <p class="py-6 text-neutral-content">
-        Hi! I'm a high school student with a passion for coding and computers. Experienced in web
-        development and 3D printing.
+        Hi! I'm a high school student with a passion for programming and computers. Experienced in
+        web development and 3D printing.
       </p>
     </div>
   </div>
