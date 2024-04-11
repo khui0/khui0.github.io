@@ -96,7 +96,7 @@
     class="max-w-lg w-full mx-auto object-center"
   />
   <h3 class="font-normal text-5xl lg:text-9xl">mini Satsana</h3>
-  <div class="stat px-0 mb-10">
+  <div class="stat px-0 mb-5">
     <div class="stat-title">Downloads</div>
     <div class="stat-value">5,000+</div>
     <div class="stat-desc">
