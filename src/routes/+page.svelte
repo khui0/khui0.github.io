@@ -132,7 +132,7 @@
   <div data-aos="fade-left" class="prose lg:prose-xl ml-auto lg:text-right">
     <p>
       Desk mounted sim racing wheel designed to be cheap to build. Uses a Raspberry Pi Pico and an
-      AS5600 magnetic encoder. Has two paddles which can be binded to act as paddle shifters or
+      AS5600 magnetic encoder. Has two paddles which can be configured to act as paddle shifters or
       pedals. Model is designed in Autodesk Fusion and the firmware is written in Arduino.
     </p>
     <a href="https://github.com/khui0/pico-wheel">Source</a>
