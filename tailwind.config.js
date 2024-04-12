@@ -34,8 +34,8 @@ export default {
           accent: "#7e6bc9",
           neutral: "#3f3f3f",
           "base-100": "#000000",
-          "base-200": "#272727",
-          "base-300": "#ababab",
+          "base-200": "#111111",
+          "base-300": "#272727",
           "base-content": "#ffffff",
 
           "--rounded-box": "0.75rem",
