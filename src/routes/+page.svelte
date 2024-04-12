@@ -151,7 +151,7 @@
   <enhanced:img
     src="$lib/assets/profile.png"
     alt="Profile"
-    class="max-w-xs w-[50%] mx-auto object-center rounded-full"
+    class="max-w-48 w-[50%] mx-auto object-center rounded-full"
   />
   <div class="prose mx-auto my-5 text-center">
     <p>This site is built with SvelteKit, Tailwind CSS, daisyUI, and TypeScript</p>
