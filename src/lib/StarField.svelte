@@ -35,7 +35,7 @@
       this.y = random(-centerY, centerY);
       this.maxRadius = random(1, 10) * (canvasSize / 1500);
 
-      this.progress = random(1, canvasSize);
+      this.progress = canvasSize;
       this.speed = (random(1, 5) / 20) * (canvasSize / 1000);
       this.canvasSize = canvasSize;
 
