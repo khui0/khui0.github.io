@@ -33,7 +33,7 @@
     #setup() {
       this.x = random(-centerX, centerX);
       this.y = random(-centerY, centerY);
-      this.maxRadius = random(1, 10) * (canvasSize / 1500);
+      this.maxRadius = random(1, 3) * (canvasSize / 1500);
 
       this.progress = canvasSize;
       this.speed = (random(1, 5) / 20) * (canvasSize / 1000);
@@ -108,11 +108,13 @@
 
   function resize(canvas: HTMLCanvasElement) {
     const rect = canvas.getBoundingClientRect();
-    canvas.width = rect.width;
-    canvas.height = rect.height;
+    const ratio = window.devicePixelRatio || 1;
+    canvas.width = rect.width * ratio;
+    canvas.height = rect.height * ratio;
     centerX = rect.width / 2;
     centerY = rect.height / 2;
-    canvasSize = Math.max(canvas.width, canvas.height);
+    canvasSize = Math.max(canvas.width, canvas.height) / ratio;
+    ctx && ctx.scale(ratio, ratio);
   }
 
   function isVisible(element: HTMLElement): boolean {
