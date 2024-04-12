@@ -92,6 +92,9 @@
       </span>
     </WebDevPanel>
   </div>
+  <p class="prose text-center mx-auto my-5">
+    <a href="https://github.com/khui0">More web projects</a>
+  </p>
 </div>
 
 <div class="m-10">
@@ -112,14 +115,15 @@
       <a href="https://www.printables.com/model/201332">Printables</a>
     </div>
   </div>
-  <div data-aos="fade-right" class="prose lg:prose-xl">
+  <div data-aos="fade-right" class="prose">
     <p>
       Remix of the popular Satsana fan duct for Creality printers. Aims to reduce unnecessary weight
       and size while improving compatibility. It's compatible with the Ender-3/CR-10 (not the
       Ender-3 V2) and the Elegoo Neptune 2. Allows using either one or two 4010 blower fans and has
-      mounting options for a BLTouch probe.
+      mounting options for a BLTouch probe. <a href="https://www.printables.com/model/201332"
+        >Download</a
+      >
     </p>
-    <a href="https://www.printables.com/model/201332">Download</a>
   </div>
   <enhanced:img
     src="$lib/assets/pico-wheel.png"
@@ -129,15 +133,16 @@
   <h3 data-aos="fade-left" class="font-normal text-5xl lg:text-9xl lg:text-right mb-5">
     Pico Wheel
   </h3>
-  <div data-aos="fade-left" class="prose lg:prose-xl ml-auto lg:text-right">
+  <div data-aos="fade-left" class="prose ml-auto lg:text-right">
     <p>
       Desk mounted sim racing wheel designed to be cheap to build. Uses a Raspberry Pi Pico and an
       AS5600 magnetic encoder. Has two paddles which can be configured to act as paddle shifters or
-      pedals. Model is designed in Autodesk Fusion and the firmware is written in Arduino.
+      pedals. Model is designed in Autodesk Fusion and the firmware is written in Arduino. <a
+        href="https://github.com/khui0/pico-wheel">Source</a
+      >
     </p>
-    <a href="https://github.com/khui0/pico-wheel">Source</a>
   </div>
-  <p class="prose lg:prose-2xl text-center mx-auto my-5">
+  <p class="prose text-center mx-auto my-5">
     <a href="https://www.printables.com/@kenny">More 3D models</a>
   </p>
 </div>

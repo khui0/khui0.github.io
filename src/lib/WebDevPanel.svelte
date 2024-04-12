@@ -10,9 +10,8 @@
   <div class="flex-1"><slot name="image" /></div>
   <div class="my-auto flex-1">
     <h3 class="font-normal text-5xl lg:text-9xl mb-5"><slot name="title" /></h3>
-    <div class="prose lg:prose-xl">
-      <p><slot name="body" /></p>
-      <a href={url}>Source</a>
+    <div class="prose">
+      <p><slot name="body" /> <a href={url}>Source</a></p>
     </div>
   </div>
 </div>
