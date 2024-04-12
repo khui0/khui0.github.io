@@ -1,13 +1,13 @@
 <script>
   import StarField from "$lib/StarField.svelte";
+  import WebDevPanel from "$lib/WebDevPanel.svelte";
+
   import DeviconSvelte from "~icons/devicon/svelte";
   import DeviconTailwindcss from "~icons/devicon/tailwindcss";
   import DeviconTypescript from "~icons/devicon/typescript";
   import SimpleIconsGithub from "~icons/simple-icons/github";
   import SimpleIconsPrintables from "~icons/simple-icons/printables";
   import SimpleIconsThingiverse from "~icons/simple-icons/thingiverse";
-
-  import WebDevPanel from "$lib/WebDevPanel.svelte";
 
   import { onMount } from "svelte";
   import AOS from "aos";
