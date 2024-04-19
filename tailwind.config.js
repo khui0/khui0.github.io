@@ -5,13 +5,6 @@ import Scrollbar from "tailwind-scrollbar";
 /** @type {import("tailwindcss").Config} */
 export default {
   content: ["./src/**/*.{html,js,svelte,ts}"],
-  theme: {
-    extend: {
-      dropShadow: {
-        glow: ["0 0 1.5rem theme('colors.primary')"],
-      },
-    },
-  },
   plugins: [
     daisyui,
     Typography(),

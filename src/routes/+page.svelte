@@ -31,11 +31,7 @@
   </div>
   <div class="hero-content text-center">
     <div class="max-w-xl">
-      <h1
-        class="text-8xl font-bold text-transparent bg-clip-text bg-gradient-to-t from-primary to-secondary drop-shadow-glow"
-      >
-        Kenny Hui
-      </h1>
+      <h1 class="text-5xl font-bold">Kenny Hui</h1>
       <p class="py-6 text-neutral-content">
         Hi! I'm a high school student with a passion for programming and computers. Experienced in
         web development and 3D printing.
