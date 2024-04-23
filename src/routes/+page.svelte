@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import StarField from "$lib/StarField.svelte";
   import WebDevPanel from "$lib/WebDevPanel.svelte";
 
@@ -15,14 +15,14 @@
   onMount(() => {
     AOS.init();
   });
+
+  const description: string =
+    "Hi! I'm a high school student with a passion for programming and computers. Experienced in web development and 3D printing.";
 </script>
 
 <svelte:head>
   <title>Kenny Hui</title>
-  <meta
-    name="description"
-    content="Hi! I'm a high school student with a passion for programming and computers. Experienced in web development and 3D printing."
-  />
+  <meta name="description" content={description} />
 </svelte:head>
 
 <div class="hero min-h-screen bg-base-100 relative">
@@ -32,10 +32,7 @@
   <div class="hero-content text-center">
     <div class="max-w-xl">
       <h1 class="text-5xl font-bold">Kenny Hui</h1>
-      <p class="py-6 text-neutral-content">
-        Hi! I'm a high school student with a passion for programming and computers. Experienced in
-        web development and 3D printing.
-      </p>
+      <p class="py-6 text-neutral-content">{description}</p>
     </div>
   </div>
 </div>
@@ -54,9 +51,9 @@
       </span>
       <span slot="title">Virtual Clicker</span>
       <span slot="body">
-        Room 233's student response system. Allows students to answer questions in real time.
-        Includes 15+ themes, LaTeX input, and submission history. Written in vanilla JS, HTML, and
-        CSS.
+        My school's student response system at room 233. Enables students to answer questions in
+        real time. Includes 15+ themes, LaTeX input, and submission history. Written in vanilla JS,
+        HTML, and CSS.
       </span>
     </WebDevPanel>
     <WebDevPanel url="https://github.com/khui0/fr-graphics" reversed>
@@ -69,8 +66,8 @@
       </span>
       <span slot="title">Falcon Report Graphics</span>
       <span slot="body">
-        A collection of graphics generators for my school's AV club, The Falcon Report. Customizable
-        and consistent. Built with SvelteKit + Tailwind CSS.
+        A graphics creation suite for my school's AV club, The Falcon Report. Customizable and
+        consistent. Built with SvelteKit + Tailwind CSS.
       </span>
     </WebDevPanel>
     <WebDevPanel url="https://github.com/khui0/bell-tracker">
