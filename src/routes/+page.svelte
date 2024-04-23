@@ -101,7 +101,7 @@
   <h3 data-aos="fade-right" class="font-normal text-5xl lg:text-9xl">mini Satsana</h3>
   <div data-aos="fade-right" class="stat px-0 mb-5">
     <div class="stat-title">Downloads</div>
-    <div class="stat-value">5,000+</div>
+    <div class="stat-value">14,000+</div>
     <div class="stat-desc">
       Combined data from <a href="https://www.thingiverse.com/thing:5139196">Thingiverse</a>
       and
@@ -141,11 +141,6 @@
 </div>
 
 <div class="m-10">
-  <enhanced:img
-    src="$lib/assets/profile.png"
-    alt="Profile"
-    class="max-w-48 w-[50%] mx-auto object-center rounded-full"
-  />
   <div class="prose mx-auto my-5 text-center">
     <p>This site is built with SvelteKit, Tailwind CSS, daisyUI, and TypeScript</p>
     <div class="grid grid-flow-col gap-3 justify-center text-3xl">
