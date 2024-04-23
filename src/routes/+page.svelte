@@ -16,6 +16,8 @@
     AOS.init();
   });
 
+  const version: string = import.meta.env.PACKAGE_VERSION;
+
   const description: string =
     "Hi! I'm a high school student with a passion for programming and computers. Experienced in web development and 3D printing.";
 </script>
@@ -160,5 +162,6 @@
         ><SimpleIconsThingiverse></SimpleIconsThingiverse></a
       >
     </div>
+    <p>{version}</p>
   </div>
 </div>
