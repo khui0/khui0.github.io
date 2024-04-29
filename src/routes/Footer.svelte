@@ -9,7 +9,7 @@
   const version: string = import.meta.env.PACKAGE_VERSION;
 </script>
 
-<div class="m-10" data-aos="fade-right">
+<div class="m-10">
   <div class="prose mx-auto my-5 text-center">
     <p>This site is built with SvelteKit, Tailwind CSS, daisyUI, and TypeScript</p>
     <div class="grid grid-flow-col gap-3 justify-center text-3xl">
