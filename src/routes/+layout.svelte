@@ -1,4 +1,11 @@
-<main class="overflow-x-hidden">
+<script lang="ts">
+  import StarField from "$lib/StarField.svelte";
+</script>
+
+<div class="fixed inset-0">
+  <StarField></StarField>
+</div>
+<main class="overflow-x-hidden isolate">
   <slot />
 </main>
 
