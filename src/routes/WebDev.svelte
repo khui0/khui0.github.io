@@ -31,8 +31,9 @@
       </span>
       <span slot="title">Falcon Report Graphics</span>
       <span slot="body">
-        A graphics creation suite for my school's AV club, The Falcon Report. Customizable and
-        consistent. Built with SvelteKit + Tailwind CSS.
+        A graphics creation suite for my school's media club, The Falcon Report. Used to
+        semi-automate the creation of repetitive graphics each week. Built with SvelteKit + Tailwind
+        CSS.
       </span>
     </Panel>
     <Panel url="https://github.com/khui0/bell-tracker">
@@ -45,8 +46,9 @@
       </span>
       <span slot="title">Bell Tracker</span>
       <span slot="body">
-        Live progress bar for my school's bell. Allows you to easily keep track of the period and
-        time left. Built with Svelte + Tailwind CSS.
+        Live progress bar for my school's bell. Can be used to keep track of the current period in
+        the event of a delayed opening, remote learning, or for new students to learn the bell
+        schedule. Built with Svelte + Tailwind CSS.
       </span>
     </Panel>
   </div>
