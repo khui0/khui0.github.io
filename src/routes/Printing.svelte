@@ -15,18 +15,18 @@
         />
       </span>
       <span slot="title">mini Satsana</span>
+      <span slot="details">
+        <h4 class="m-0 text-4xl text-neutral-content">14,000+</h4>
+        <p class="text-sm text-neutral-content">
+          Downloads on <a href="https://www.thingiverse.com/thing:5139196">Thingiverse</a> and
+          <a href="https://www.printables.com/model/201332">Printables</a>
+        </p>
+      </span>
       <span slot="body">
-        <div>
-          <h4 class="m-0 text-4xl text-neutral-content">14,000+</h4>
-          <p class="text-sm text-neutral-content">
-            Downloads on <a href="https://www.thingiverse.com/thing:5139196">Thingiverse</a> and
-            <a href="https://www.printables.com/model/201332">Printables</a>
-          </p>
-        </div>
-        Remix of the Satsana fan duct for Creality printers. The main goal was to reduce the size and
-        weight, and therefore the time it takes to print. It's compatible with the Ender-3/CR-10 (not
-        the Ender-3 V2) and the Elegoo Neptune 2. Supports using either single or double 4010 blower
-        fans and has mounting options for a BLTouch probe.
+        Remix of the Satsana fan duct for Creality printers. The main goal was to reduce the size
+        and weight, and therefore the time it takes to print. It's compatible with the Ender-3/CR-10
+        (not the Ender-3 V2) and the Elegoo Neptune 2. Supports using either single or double 4010
+        blower fans and has mounting options for a BLTouch probe.
       </span>
     </Panel>
     <Panel url="https://github.com/khui0/pico-wheel">

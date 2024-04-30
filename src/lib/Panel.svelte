@@ -11,6 +11,7 @@
   <div class="my-auto flex-1">
     <h3 class="font-normal text-5xl mb-5"><slot name="title" /></h3>
     <div class="prose">
+      <div><slot name="details"></slot></div>
       <p><slot name="body" /> <a href={url}>Source</a></p>
     </div>
   </div>
