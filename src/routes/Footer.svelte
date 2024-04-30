@@ -13,7 +13,7 @@
 <div class="m-10 prose mx-auto my-5 text-center">
   <div class="grid lg:grid-cols-2">
     <div>
-      <p>Built with SvelteKit, Tailwind CSS, daisyUI, and TypeScript</p>
+      <p>Built with SvelteKit, Tailwind CSS, and TypeScript</p>
       <div class="grid grid-flow-col gap-3 justify-center text-3xl">
         <DeviconSvelte></DeviconSvelte>
         <DeviconTailwindcss></DeviconTailwindcss>

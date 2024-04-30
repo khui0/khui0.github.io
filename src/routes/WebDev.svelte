@@ -3,15 +3,14 @@
 </script>
 
 <div class="m-10">
-  <h2 class="text-5xl" id="web-development">Web Development</h2>
-  <p class="text-neutral-content my-5">Some of my work found on the World Wide Web</p>
+  <h2 class="text-5xl mb-10" id="web-development">Web Development</h2>
   <div class="flex flex-col gap-5">
     <Panel url="https://github.com/khui0/virtual-clicker">
       <span slot="image">
         <enhanced:img
           src="$lib/assets/virtual-clicker.png"
           alt="Virtual Clicker"
-          class="object-cover rounded-lg"
+          class="object-cover"
         />
       </span>
       <span slot="title">Virtual Clicker</span>
@@ -26,7 +25,7 @@
         <enhanced:img
           src="$lib/assets/fr-graphics.png"
           alt="Falcon Report Graphics"
-          class="object-cover rounded-lg"
+          class="object-cover"
         />
       </span>
       <span slot="title">Falcon Report Graphics</span>
@@ -38,11 +37,7 @@
     </Panel>
     <Panel url="https://github.com/khui0/bell-tracker">
       <span slot="image">
-        <enhanced:img
-          src="$lib/assets/bell-tracker.png"
-          alt="Bell tracker"
-          class="object-cover rounded-lg"
-        />
+        <enhanced:img src="$lib/assets/bell-tracker.png" alt="Bell tracker" class="object-cover" />
       </span>
       <span slot="title">Bell Tracker</span>
       <span slot="body">

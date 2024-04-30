@@ -3,15 +3,14 @@
 </script>
 
 <div class="m-10">
-  <h2 class="text-5xl" id="3d-printing">3D Printing</h2>
-  <p class="text-neutral-content my-5">3D models I've designed in Autodesk Fusion</p>
+  <h2 class="text-5xl mb-10" id="3d-printing">3D Printing</h2>
   <div class="flex flex-col gap-5">
     <Panel url="https://www.printables.com/model/201332">
       <span slot="image">
         <enhanced:img
           src="$lib/assets/mini-satsana.png"
           alt="mini Satsana fan duct"
-          class="object-cover rounded-lg"
+          class="object-cover"
         />
       </span>
       <span slot="title">mini Satsana</span>
@@ -31,11 +30,7 @@
     </Panel>
     <Panel url="https://github.com/khui0/pico-wheel">
       <span slot="image">
-        <enhanced:img
-          src="$lib/assets/pico-wheel.png"
-          alt="Pico wheel"
-          class="object-cover rounded-lg"
-        />
+        <enhanced:img src="$lib/assets/pico-wheel.png" alt="Pico wheel" class="object-cover" />
       </span>
       <span slot="title">Pico Wheel</span>
       <span slot="body">
