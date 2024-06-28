@@ -12,7 +12,7 @@
   });
 
   const description: string =
-    "Hi! I'm a high school student with a passion for programming and computers. Experienced in web development and 3D printing.";
+    "Hi! I'm a student currently studying CS. Experienced in web development and 3D printing.";
 </script>
 
 <svelte:head>
