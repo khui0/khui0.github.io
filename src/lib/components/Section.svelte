@@ -12,7 +12,7 @@
 </script>
 
 <section
-  class="flex flex-col items-center gap-5 p-10 mb-3 {dark
+  class="flex flex-col items-center gap-4 p-10 mb-3 {dark
     ? 'bg-black text-accent-content'
     : 'bg-base-200'}"
 >
