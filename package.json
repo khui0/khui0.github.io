@@ -1,10 +1,10 @@
 {
   "name": "khui0.github.io",
-  "version": "1.8.0",
+  "version": "2.0.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite dev --host",
+    "dev": "vite dev",
     "build": "vite build",
     "preview": "vite preview",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
@@ -43,8 +43,7 @@
     "@rollup/rollup-linux-x64-gnu": "^4.13.2"
   },
   "dependencies": {
-    "@fontsource-variable/dm-sans": "^5.0.4",
-    "aos": "^2.3.4",
+    "@fontsource-variable/figtree": "^5.0.21",
     "vite-plugin-package-version": "^1.1.0"
   }
 }
