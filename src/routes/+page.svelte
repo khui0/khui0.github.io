@@ -44,3 +44,23 @@
     <p><sup>1</sup>Combined data from Thingiverse and Printables</p>
   </span>
 </Section>
+<!-- Pico Wheel -->
+<Section
+  title="Pico Wheel"
+  description="Budget sim racing"
+  action="Build"
+  url="https://www.printables.com/model/201332"
+  dark
+  more
+>
+  <enhanced:img src="$lib/assets/pico-wheel.png" alt="Pico wheel" class="object-contain max-h-96" />
+  <span slot="blurb">
+    <p>
+      Low-cost steering wheel designed for PC sim racing. Input is handled using a Raspberry Pi Pico
+      and an AS5600 magnetic encoder. The Pico then emulates a gamepad, with the wheel rotation
+      mapped to one of the joysticks. The wheel has two paddles that can be configured as shifters,
+      accelerator and brake, or anything else. The model is designed in Autodesk Fusion and the
+      firmware is written in Arduino.
+    </p>
+  </span>
+</Section>
