@@ -22,13 +22,14 @@ export default {
         light: {
           primary: "#366aed",
           "primary-content": "#ffffff",
-          secondary: "#366aed",
+          secondary: "#000000",
           "secondary-content": "#ffffff",
           accent: "#366aed",
+          "accent-content": "#ffffff",
           neutral: "#dcdcdc",
           "neutral-content": "#525252",
           "base-100": "#fafafa",
-          "base-200": "#eeeeee",
+          "base-200": "#f5f5f7",
           "base-300": "#d9d9d9",
           "base-content": "#2c2c2c",
 

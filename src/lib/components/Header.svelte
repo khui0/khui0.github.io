@@ -4,7 +4,7 @@
   import LucideMenu from "~icons/lucide/menu";
 </script>
 
-<header class="navbar bg-base-100">
+<header class="sticky top-0 z-10 navbar bg-base-100/75 backdrop-blur-md">
   <div class="flex-1">
     <a class="btn btn-ghost text-xl" href="/">kennyhui.dev</a>
   </div>
