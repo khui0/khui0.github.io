@@ -1,5 +1,5 @@
 <script>
-  import Panel from "$lib/Panel.svelte";
+  import Panel from "$lib/components/Panel.svelte";
 </script>
 
 <div class="m-10">

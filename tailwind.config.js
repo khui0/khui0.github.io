@@ -19,17 +19,18 @@ export default {
   daisyui: {
     themes: [
       {
-        dark: {
-          primary: "#7e6bc9",
-          "primary-content": "#f2f2f2",
-          secondary: "#523ff4",
-          "secondary-content": "#f2f2f2",
-          accent: "#7e6bc9",
-          neutral: "#3f3f3f",
-          "base-100": "#000000",
-          "base-200": "#222222",
-          "base-300": "#313131",
-          "base-content": "#f2f2f2",
+        light: {
+          primary: "#366aed",
+          "primary-content": "#ffffff",
+          secondary: "#366aed",
+          "secondary-content": "#ffffff",
+          accent: "#366aed",
+          neutral: "#dcdcdc",
+          "neutral-content": "#525252",
+          "base-100": "#fafafa",
+          "base-200": "#eeeeee",
+          "base-300": "#d9d9d9",
+          "base-content": "#2c2c2c",
 
           "--rounded-box": "0.75rem",
           "--rounded-btn": "0.5rem",
