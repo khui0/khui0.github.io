@@ -6,7 +6,7 @@
 
 <header class="sticky top-0 z-10 navbar bg-base-100/75 backdrop-blur-md">
   <div class="flex-1">
-    <a class="btn btn-ghost text-xl" href="/">kennyhui.dev</a>
+    <a class="text-xl px-4 active:scale-95 transition-transform" href="/">kennyhui.dev</a>
   </div>
   <div class="flex-none">
     <ul class="menu menu-horizontal px-1 hidden sm:flex">
