@@ -19,9 +19,9 @@
 >
   <enhanced:img src="$lib/assets/flaggle-icon-v1.svg" alt="Flaggle icon" class="w-32" />
 </Section>
-<!-- miniSatsana -->
+<!-- mini Satsana -->
 <Section
-  title="miniSatsana"
+  title="mini Satsana"
   description="Light as a feather"
   action="Download"
   url="https://www.printables.com/model/201332"
