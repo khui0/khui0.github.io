@@ -49,7 +49,7 @@
   title="Pico Wheel"
   description="Budget sim racing"
   action="Build"
-  url="https://www.printables.com/model/201332"
+  url="https://github.com/khui0/pico-wheel"
   dark
   more
 >
