@@ -5,6 +5,7 @@
   export let url: string;
   export let dark: boolean = false;
   export let more: boolean = false;
+  export let flipped: boolean = false;
 
   import Modal from "./Modal.svelte";
 
@@ -12,14 +13,14 @@
 </script>
 
 <section
-  class="flex flex-col items-center gap-4 p-10 mb-3 {dark
-    ? 'bg-black text-accent-content'
-    : 'bg-base-200'}"
+  class="flex flex-col items-center gap-4 {dark ? 'bg-black text-accent-content' : 'bg-base-200'}"
 >
-  <slot></slot>
-  <h2 class="text-4xl font-bold">{title}</h2>
+  {#if !flipped}
+    <slot></slot>
+  {/if}
+  <h2 class="text-4xl font-bold" class:pt-10={flipped}>{title}</h2>
   <p class="text-lg">{description}</p>
-  <div class="flex gap-4">
+  <div class="flex gap-4" class:pb-10={!flipped}>
     <button
       class="btn btn-accent rounded-full px-6"
       class:hidden={!more}
@@ -37,6 +38,9 @@
       {action}
     </a>
   </div>
+  {#if flipped}
+    <slot></slot>
+  {/if}
 </section>
 
 <Modal {title} bind:this={modal}>

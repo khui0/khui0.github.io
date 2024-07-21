@@ -6,10 +6,12 @@
 
 <div class="drawer drawer-end">
   <input id="sidebar" type="checkbox" class="drawer-toggle" />
-  <div class="drawer-content flex flex-col">
+  <div class="drawer-content">
     <Header></Header>
-    <slot></slot>
-    <Footer></Footer>
+    <div class="flex flex-col gap-3">
+      <slot></slot>
+      <Footer></Footer>
+    </div>
   </div>
   <div class="drawer-side z-20 sm:hidden">
     <label for="sidebar" aria-label="close sidebar" class="drawer-overlay"></label>
