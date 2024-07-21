@@ -35,7 +35,7 @@ export default {
 
           "--rounded-box": "0.75rem",
           "--rounded-btn": "0.5rem",
-          "--rounded-badge": "1.9rem",
+          "--rounded-badge": "0.75rem",
           "--animation-btn": "0.25s",
           "--animation-input": "0.2s",
           "--btn-focus-scale": "0.95",

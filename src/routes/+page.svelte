@@ -30,6 +30,7 @@
     url="https://www.printables.com/model/201332"
     dark
     more
+    flipped
   >
     <enhanced:img
       src="$lib/assets/mini-satsana.png"

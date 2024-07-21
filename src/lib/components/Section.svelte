@@ -3,6 +3,7 @@
   export let description: string;
   export let action: string;
   export let url: string;
+  export let tag: string = "";
   export let dark: boolean = false;
   export let more: boolean = false;
   export let flipped: boolean = false;
@@ -13,7 +14,9 @@
 </script>
 
 <section
-  class="flex flex-col items-center gap-4 {dark ? 'bg-black text-accent-content' : 'bg-base-200'}"
+  class="flex flex-col items-center gap-4 relative {dark
+    ? 'bg-black text-accent-content'
+    : 'bg-base-200'}"
 >
   {#if !flipped}
     <slot></slot>
@@ -40,6 +43,11 @@
   </div>
   {#if flipped}
     <slot></slot>
+  {/if}
+  {#if tag !== ""}
+    <span class="badge badge-primary absolute top-0 left-0 m-5 py-3" class:badge-outline={dark}>
+      {tag}
+    </span>
   {/if}
 </section>
 
